@@ -1,6 +1,6 @@
 <template>
   <v-layout>
-    <v-flex xs12 sm8 offset-sm2 mt-4 mb-4>
+    <v-flex xs12 sm8 offset-sm2 mt-4 mb-4 class="elevation-6">
       <v-card>
         <v-card-media src="https://vuetifyjs.com/static/doc-images/cards/desert.jpg" height="200px">
         </v-card-media>
