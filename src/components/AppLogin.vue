@@ -1,5 +1,5 @@
 <template>
-  <v-app>
+  <v-app style="height:250px;">
 	  <v-container>
 		  <v-form v-model="valid">
 		    <v-text-field
@@ -18,7 +18,7 @@
 		    ></v-text-field>
 		    <v-btn color="success" @click="Login">Success</v-btn>
 		  </v-form>
-	  </v-container>	
+	  </v-container>
   </v-app>
 </template>
 
@@ -46,5 +46,5 @@
 </script>
 
 <style scoped>
-	
+
 </style>
