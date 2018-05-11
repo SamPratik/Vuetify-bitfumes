@@ -7,11 +7,19 @@
       </router-link>
       <v-spacer></v-spacer>
       <div class="hidden-sm-and-down">
+        <router-link to="">
+          <v-badge left>
+            <span slot="badge">6</span>
+            <v-icon large color="white">shopping_cart</v-icon>
+          </v-badge>
+        </router-link>
         <router-link to="/" style="text-decoration:none;">
           <v-btn flat>Home</v-btn>
         </router-link>
         <v-btn flat>About</v-btn>
-        <v-btn flat>Contact</v-btn>
+        <router-link to="/contact" style="text-decoration:none;">
+          <v-btn flat>Contact</v-btn>
+        </router-link>
         <router-link to="/login" style="text-decoration:none;">
           <v-btn flat color="text--white">
             Login
@@ -74,7 +82,7 @@
         items: [
           { title: 'Home', icon: 'dashboard', link: '/' },
           { title: 'About', icon: 'question_answer', link: '' },
-          { title: 'Contact', icon: 'question_answer', link: '' },
+          { title: 'Contact', icon: 'question_answer', link: '/contact' },
           { title: 'Login', icon: 'question_answer', link: '/login' },
         ],
         mini: false,
