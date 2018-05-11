@@ -3,11 +3,19 @@
     <v-toolbar-side-icon></v-toolbar-side-icon>
     <v-toolbar-title class="white--text">TheSoftKing</v-toolbar-title>
     <v-spacer></v-spacer>
-    <v-toolbar-items class="hidden-sm-and-down">
+    <div class="hidden-sm-and-down">
+      <router-link to="/" style="text-decoration:none;">
+        <v-btn flat>Home</v-btn>
+      </router-link>
       <v-btn flat>About</v-btn>
       <v-btn flat>Contact</v-btn>
-      <v-btn flat>Login</v-btn>
-    </v-toolbar-items>
+      <router-link to="/login" style="text-decoration:none;">
+        <v-btn flat color="text--white">
+          Login
+        </v-btn>
+      </router-link>
+      <!-- <v-btn flat>Login</v-btn> -->
+    </div>
   </v-toolbar>
 </template>
 

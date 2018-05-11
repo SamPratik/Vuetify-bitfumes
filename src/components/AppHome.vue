@@ -1,19 +1,12 @@
 <template>
 	<div>
-		<app-toolbar></app-toolbar>
-		<app-footer></app-footer>
+		<h1>Home Component</h1>
 	</div>
 </template>
 
 <script>
-	import AppToolbar from './AppToolbar.vue'
-	import AppFooter from './AppFooter.vue'
-
 	export default {
-		components: {
-			AppToolbar,
-			AppFooter
-		}
+
 	}
 </script>
 
